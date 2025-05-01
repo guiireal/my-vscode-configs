@@ -307,11 +307,6 @@
     "scminput": false
   },
   "jest.runMode": "deferred",
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.currentLine.enabled": false,
-  "gitlens.currentLine.pullRequests.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.recentChange.enabled": false,
   "php-cs-fixer.onsave": true,
   "php-cs-fixer.autoFixByBracket": false,
   "php-cs-fixer.rules": "@PSR12",
@@ -319,26 +314,10 @@
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   "php-cs-fixer.lastDownload": 1718322836370,
   "php.suggest.basic": false,
-  "github.copilot.editor.enableAutoCompletions": true,
   "symbols.hidesExplorerArrows": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "redhat.telemetry.enabled": true,
   "workbench.iconTheme": "material-icon-theme",
-  "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
-  "mssql.enableRichExperiences": true,
-  "mssql.connections": [
-    {
-      "authenticationType": "SqlLogin",
-      "connectTimeout": 15,
-      "applicationName": "vscode-mssql",
-      "profileName": "SQL Server",
-      "server": "DESKTOP-V8H1147\\MSSQLSERVER2022D",
-      "user": "sa",
-      "password": "",
-      "savePassword": true,
-      "trustServerCertificate": true
-    }
-  ],
   "github.copilot.selectedCompletionModel": "gpt-4o-copilot"
 }
