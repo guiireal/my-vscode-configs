@@ -76,6 +76,9 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "junstyle.php-cs-fixer"
   },
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
   "emmet.triggerExpansionOnTab": true,
   "emmet.syntaxProfiles": {
     "javascript": "jsx",
@@ -282,7 +285,6 @@
     "*.jsx": "javascriptreact",
     "*.tsx": "typescriptreact"
   },
-  "gitlens.views.stashes.files.layout": "list",
   "editor.inlineSuggest.enabled": true,
   "explorer.confirmDelete": false,
   "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
@@ -301,10 +303,7 @@
   "workbench.editor.empty.hint": "hidden",
   "go.toolsManagement.autoUpdate": true,
   "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
+    "*": true
   },
   "jest.runMode": "deferred",
   "php-cs-fixer.onsave": true,
@@ -312,12 +311,14 @@
   "php-cs-fixer.rules": "@PSR12",
   "php-cs-fixer.config": "C:\\php\\.php-cs-fixer.php",
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  "php-cs-fixer.lastDownload": 1718322836370,
+  "php-cs-fixer.lastDownload": 1754414297865,
   "php.suggest.basic": false,
   "symbols.hidesExplorerArrows": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "redhat.telemetry.enabled": true,
   "workbench.iconTheme": "material-icon-theme",
   "editor.cursorSmoothCaretAnimation": "on",
-  "github.copilot.selectedCompletionModel": "gpt-4o-copilot"
+  "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+  "docker.extension.enableComposeLanguageServer": false,
+  "github.copilot.nextEditSuggestions.enabled": true
 }
