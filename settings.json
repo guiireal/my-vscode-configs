@@ -68,16 +68,24 @@
   "[prisma]": {
     "editor.formatOnSave": true
   },
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
   "[python]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "[php]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
   },
-  "[markdown]": {
-    "diffEditor.ignoreTrimWhitespace": true
+  "[c]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[cpp]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
   },
   "emmet.triggerExpansionOnTab": true,
   "emmet.syntaxProfiles": {
@@ -298,20 +306,20 @@
   "svg.preview.mode": "svg",
   "vscodeGoogleTranslate.preferredLanguage": "English",
   "terminal.integrated.env.linux": {},
-  "terminal.integrated.env.windows": {},
+  "terminal.integrated.env.windows": {
+     "PATH": "${env:PATH};D:\\TDM-GCC-64\\bin"
+  },
   "editor.guides.bracketPairs": true,
   "workbench.editor.empty.hint": "hidden",
   "go.toolsManagement.autoUpdate": true,
   "github.copilot.enable": {
-    "*": true
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "c": true
   },
   "jest.runMode": "deferred",
-  "php-cs-fixer.onsave": true,
-  "php-cs-fixer.autoFixByBracket": false,
-  "php-cs-fixer.rules": "@PSR12",
-  "php-cs-fixer.config": "C:\\php\\.php-cs-fixer.php",
-  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  "php-cs-fixer.lastDownload": 1754414297865,
   "php.suggest.basic": false,
   "symbols.hidesExplorerArrows": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -320,5 +328,5 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
   "docker.extension.enableComposeLanguageServer": false,
-  "github.copilot.nextEditSuggestions.enabled": true
+  "github.copilot.nextEditSuggestions.enabled": true,
 }
